@@ -16,7 +16,6 @@ Saved videos are in mp4 format.
 You can take a screenshot (png) by pressing "S".
 
 Change framerate parameter to your liking.
-
 If you experience any difficulties let me know.
 
 
