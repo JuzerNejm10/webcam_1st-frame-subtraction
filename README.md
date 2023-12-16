@@ -10,7 +10,8 @@ Blur (Gaussian) can be removed by pressing the "B" key.
 Live filters can be computationally heavy so if you experience an unacceptable framerate stuttering, turn them off. It's easy to apply them in any video editor afterwards.
 
 Recording is done by pressing the "R" key. The same key pauses the recording process and, pressed once more, continues it. ESC stops the recording and exits the sketch.
-You can take a screenshot by pressing "S".
+Saved videos are in mp4 format.
+You can take a screenshot (png) by pressing "S".
 
 Change framerate parameter to your liking.
 If you experience any difficulties let me know.
