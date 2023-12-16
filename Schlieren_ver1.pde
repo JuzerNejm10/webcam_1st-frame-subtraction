@@ -18,9 +18,7 @@ void setup() {
 
 void captureEvent(Capture video) {
   video.read();
-  if (firstFrame == null) {
-    firstFrame = video.get();
-  }
+  if (firstFrame == null) firstFrame = video.get();
 }
 
 void draw() {
