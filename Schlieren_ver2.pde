@@ -18,9 +18,7 @@ void setup() {
 
 void captureEvent(Capture video) {
   video.read();
-  if (firstFrame == null) {
-    firstFrame = video.get();
-  }
+  if (firstFrame == null) firstFrame = video.get();
 }
 
 void draw() {  
@@ -52,7 +50,7 @@ void keyPressed() {
       start = false;
     }
     if (key == ESC) {
-      println("VIDEO SAVED");
+      //println("VIDEO SAVED");
       videoExport.endMovie();  
       exit();
     }
