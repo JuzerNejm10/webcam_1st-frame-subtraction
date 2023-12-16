@@ -63,7 +63,7 @@ void keyPressed() {
       start = false;
     }
     if (key == ESC) {
-      println("VIDEO SAVED");
+      //println("VIDEO SAVED");
       videoExport.endMovie();  
       exit();
     }
