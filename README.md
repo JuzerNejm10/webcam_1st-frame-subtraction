@@ -1,4 +1,4 @@
-# webcam_1st-frame-subtraction
+# webcam_1st-frame-subtraction (done in Processing)
 obtain real-time synthetic Schlieren images/footage using your webcam
 
 For the sake of diversity there are two versions of the code. There's no need to use both of them. They produce the same result.
