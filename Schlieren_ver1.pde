@@ -44,6 +44,7 @@ void draw() {
       currentFrame.updatePixels();
       image(currentFrame, 0, 0);
       if (grayMode) filter(GRAY);
+      //if blur radius of 3 is not sufficient, increase it but it may slow the video down
       if (blurMode) filter(BLUR, 3);
 
       if (record) videoExport.saveFrame();
